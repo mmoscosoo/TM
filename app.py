@@ -18,7 +18,7 @@ st.title("Reconocimiento de Imágenes")
 image = Image.open('OIG5.jpg')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Usando un modelo entrenado en teachable Machine puedes Usarlo en esta app para identificar")
+    st.subheader("Usando un modelo entrenado en teachable Machine puedes Usarlo en esta app para identificar si tienes la mano abierta o cerrada")
 img_file_buffer = st.camera_input("Toma una Foto")
 
 if img_file_buffer is not None:
